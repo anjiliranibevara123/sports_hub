@@ -1,1 +1,1 @@
-web: gunicorn sports_hub.app:app
+web: gunicorn wsgi:app
